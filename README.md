@@ -21,7 +21,7 @@ The modern power grid is fundamentally unbalanced, facing a trilemma of three co
 
 A simple "greedy" algorithm that just uses the cheapest time *cannot* solve this—it just moves the peak. This is a complex, multi-objective optimization problem.
 
-## 🏆 Our Winning Solution: The "Grid-Aware" Global QUBO
+## 🏆 Our Solution: The "Grid-Aware" Global QUBO
 
 Our primary solution is a **holistic, "Grid-Aware" model** that views the entire 24-hour period as a single, connected problem. We formulated the challenge as a **QUBO (Quadratic Unconstrained Binary Optimization)**, the native language of quantum annealers.
 
