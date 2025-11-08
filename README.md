@@ -6,13 +6,13 @@
 [![D-Wave](https://img.shields.io/badge/D--Wave-Ocean_SDK-purple.svg)](https://www.dwavesys.com/software/ocean/)
 [![PennyLane](https://img.shields.io/badge/PennyLane-QAOA-orange.svg)](https://pennylane.ai/)
 
-This project uses quantum-hybrid optimization to solve a complex, real-world energy demand-response problem. [cite_start]Our "Grid-Aware" QUBO model, solved with D-Wave's quantum-inspired annealers, **proves a 73% reduction in peak grid load** compared to naive classical approaches.
+This project uses quantum optimization to solve a complex, real-world energy demand-response problem. Our "Grid-Aware" QUBO model, solved with D-Wave's quantum-inspired annealers, **proves a 73% reduction in peak grid load** compared to naive classical approaches.
 
 **Code Repository:** [github.com/vbinvu68/Optimizing-Energy-Demand-Response](https://github.com/vbinvu68/Optimizing-Energy-Demand-Response-using-quantum-algorithms)
 
 ---
 
-## [cite_start]🌪️ The Problem: The Energy Trilemma 
+## 🌪️ The Problem: The Energy Trilemma 
 
 The modern power grid is fundamentally unbalanced, facing a trilemma of three competing pressures:
 1.  **High Cost:** Consumers are penalized with high bills for using energy when they need it most.
@@ -72,6 +72,8 @@ The data *proved* our final settings were optimal:
 Our final parameters (**A=0.5, B=3.0, C=100k**) are not a guess; they are the statistically proven optimal settings.
 
 ![3D Plot of Hyperparameter Sweep]<img width="975" height="243" alt="image" src="https://github.com/user-attachments/assets/957130ad-b435-45d6-8ce3-fd2f8835d7cb" />
+<img width="1224" height="450" alt="image" src="https://github.com/user-attachments/assets/6c444753-56b0-40df-a22c-e12102922ca2" />
+
 
 *(Caption: Our 3D sweep analysis, proving our (A, B, C) dials were tuned for optimal performance.)*
 
