@@ -103,10 +103,21 @@ Our QAOA model, with a low penalty of `C=50`, "cheated" the constraint by turnin
     ```
 
 2.  **Install dependencies:**
-    ```bash
-    pip install pandas numpy matplotlib plotly kaleido "dimod>=0.12.0" "dwave-neal>=0.6.0" "pennylane>=0.30.0" "optax>=0.1.4" "jax>=0.4.13"
-    ```
 
+- Dwave envirement:
+    ```bash
+conda create --name dwave_env python=3.10
+conda activate dwave_env
+cd Dwave-solution/
+pip install -r dwave_requirements.txt
+    ```
+- Pennylane envirement:
+    ```bash
+conda create --name pennylane_env python=3.10
+conda activate pennylane_env
+cd QAOA-pennylane/
+pip install -r pennylane_requirements.txt
+    ```
 3.  **Run the Solutions:**
     * **Winning Solution (D-Wave):** Open and run `Dwave-solution.ipynb`.
     * **R&D Solution (QAOA):** Open and run `Pennylane-Solution.ipynb`.
