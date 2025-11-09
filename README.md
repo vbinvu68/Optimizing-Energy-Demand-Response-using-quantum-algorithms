@@ -124,5 +124,5 @@ pip install -r pennylane_requirements.txt
 
 ## 🏆 The Team
 
-**Team Beerantum**
-**Rudraksh Sharma & Van Binh Vu**
+**Team Beerantum:** **Rudraksh Sharma & Van Binh Vu & 
+Ziwoong Jang**
