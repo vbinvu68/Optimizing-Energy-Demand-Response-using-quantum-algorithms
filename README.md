@@ -1,7 +1,5 @@
 # ⚡ SmartGrid-QUBO: Solving the Energy Trilemma ⚡
 
-**A Solution for the Quantum Boost** 
-
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![D-Wave](https://img.shields.io/badge/D--Wave-Ocean_SDK-purple.svg)](https://www.dwavesys.com/software/ocean/)
 [![PennyLane](https://img.shields.io/badge/PennyLane-QAOA-orange.svg)](https://pennylane.ai/)
